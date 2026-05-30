@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="google-adsense-account" content="ca-pub-1628558770917697">
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1628558770917697"
+     crossorigin="anonymous"></script>
+     <meta name="google-adsense-account" content="ca-pub-1628558770917697">
+    <title>Timeless Toon TV</title>
+    <link rel="stylesheet" href="stylesheet.css">
+  
+</head>
+<body>
+
+    <header>
+        <div class="brand-logo" onclick="showHomeView()"> Toon <span>Mining</span></div>
+        <div class="search-container">
+            <div class="search-input-wrapper">
+                <span class="search-icon">🔍</span>
+                <input type="text" id="searchInput" class="search-input" placeholder="Search entries..." onkeyup="handleSearchKeyUp(event)">
+            </div>
+            <button class="search-action-btn" onclick="executeSearch()">Search</button>
+        </div>
+        <div class="nav-right">
+            <button class="theme-toggle-btn" id="themeToggle" onclick="toggleTheme()">🌙</button>
+        </div>
+    </header>
+
+    <div class="filter-tabs-row" id="viewFilterRow">
+        <button id="allFilterTabBtn" class="tab-btn active-tab" onclick="switchFilterMode('all')">All Library</button>
+        <button id="favFilterTabBtn" class="tab-btn" onclick="switchFilterMode('favorites')">💖 Favorites Only</button>
+    </div>
+
+    <div id="homeView" class="view-section active-view">
+        <main class="content-grid" id="mainContentGrid"></main>
+        <div class="no-results-msg" id="noResultsContainer">No items found matching your filter rules. ⛏️</div>
+    </div>
+
+    <div id="profileView" class="view-section">
+        <div class="back-btn-container">
+            <button class="back-action-btn" onclick="exitProfileView()">← Back to Library</button>
+        </div>
+
+        <div class="show-hero-header">
+            <div class="video-player-container" style="flex: 2; width: 100%;">
+                
+                <div class="live-status-watching-banner" id="watchingStatusElement">
+                    🎬 Watching: <span id="watchingEpisodeTitle">Select an item...</span>
+                </div>
+
+                <div class="video-player-viewport-wrapper">
+                    <video id="mainVideoPlayer" controls controlsList="nodownload">
+                        Your browser does not support the HTML5 video tags.
+                    </video>
+                    <img class="player-brand-watermark" src="./watermark/T3.png" alt="Timeless Toons TV">
+                </div>
+                <div class="parts-timeline-wrapper" id="partsSelectorModule" style="display: none;">
+                    <span class="structure-label" id="partsSelectorTitle">Available Segments</span>
+                    <div class="parts-grid-layout" id="partsNodesContainer"></div>
+                </div>
+            </div>
+
+            <div class="show-meta-details">
+                <h1 id="showTitle" style="font-size: 24px;">Loading Title Details...</h1>
+                <div class="info-description-card">
+                    <span class="structure-label">Summary Overview</span>
+                    <p id="showSummaryText">Loading summary details...</p>
+                </div>
+                <div class="actions-row-container">
+                    <a id="showPlaylistLink" class="action-redirect-btn secondary-btn" href="#" target="_blank">📂 Open YouTube Playlist</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="floating-action-popup-container">
+        <button class="master-floating-btn" id="fixedHeartPopBtn" onclick="handleFloatingPopClick()">🤍</button>
+    </div>
+
+    <footer>
+        <p>&copy; Toon Mining</p>
+    </footer>
+
+   <script src="script.js"></script>
+</body>
+</html>
