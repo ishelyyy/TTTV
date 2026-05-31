@@ -5,12 +5,12 @@
     "type": "movies",
     "channel": "toon_mining",
     "playlist_link": "https://www.youtube.com/playlist?list=PLTU8RIZ87-4InNhcLc21py1UXzhYGOA4z",
-    "poster": "./assets/shows/Shinchan/VVT/VVT.jpeg",
-    "info": "Join Shinchan and the Kasukabe Defense Force in this hilarious culinary adventure! When a legendary sauce is threatened by a strict B-class gourmet organization, the team must step up to protect the flavors of the streets in a wild showdown full of delicious comedy.",
+    "poster": "./assets/Episodes/Shinchan/VVT/VVT.jpeg",
+    "info": "The film revolves around the journey of Shin-chan and his mates from the Kasukabe Defense Group as they go on a survival quest to deliver a “Legendary Sauce” at a food festival before an elitist bad guy wipes out all the street food. It is a funny and endearing tale about friendship, cravings, and the eternal clash between A-Class dining (the expensive) and B-Class food (the yummy and cheap).",
     "parts": [
       { 
         "name": "Full Movie",
-        "video": "assets/videos/Shinchan"
+        "video": "./assets/Movies/Shinchan/Very_Very_Tasty/Very_Very_Tasty_(2013)_Hindi_Part_1080p.mp4"
       }
     ] 
   },
@@ -22,32 +22,28 @@
     "type": "shows",
     "channel": "toon_mining",
     "playlist_link": "https://www.youtube.com/playlist?list=PLTU8RIZ87-4LTMkSCNL2QSRX2drkuTnL-",
-    "poster": "./assets/shows/Kiteretsu/Kit_01.jpeg",
+    "poster": "./assets/Episodes/Kiteretsu/Kit_01.jpeg",
     "info": "Step into the incredible world of Kiteretsu, a young genius inventor who uncovers a treasure trove of revolutionary blueprints left behind by his ancestor, Great Kiteretsu. Alongside his loyal wooden robot companion Korosuke, he builds gadgets that turn everyday neighborhood life into a series of brilliant adventures.",
     "parts": [
       { 
         "name": "Episode 1",
-        "video": "./assets/videos/Kiteretsu/Season_1/Kiteretsu_E1_P1_1080p.mp4"
+        "video": "./assets/Movies/Kiteretsu/Season_1/Kiteretsu_E1_P1_1080p.mp4"
       },
       { 
         "name": "Episode 2",
-        "video": "./assets/videos/Kiteretsu/Season_1/Kiteretsu_E1_P2_1080p.mp4"
+        "video": "./assets/Movies/Kiteretsu/Season_1/Kiteretsu_E1_P2_1080p.mp4"
       },
       { 
         "name": "Episode 3",
-        "video": "./assets/videos/Kiteretsu/Season_1/Kiteretsu_E2_P1_1080p.mp4"
+        "video": "./assets/Movies/Kiteretsu/Season_1/Kiteretsu_E2_P1_1080p.mp4"
       },
       { 
         "name": "Episode 4",
-        "video": "./assets/videos/Kiteretsu/Season_1/Kiteretsu_E2_P2_1080p.mp4"
+        "video": "./assets/Movies/Kiteretsu/Season_1/Kiteretsu_E2_P2_1080p.mp4"
       },
       { 
         "name": "Episode 5",
-        "video": "./assets/videos/Kiteretsu/Season_1/Kiteretsu_E3_P1_1080p.mp4"
-      },
-      { 
-        "name": "Episode 6",
-        "video": "./assets/videos/Kiteretsu/Season_1/Kiteretsu_E3_P2_1080p.mp4"
+        "video": "./assets/Movies/Kiteretsu/Season_1/Kiteretsu_E3_P1_1080p.mp4"
       }
     ]
   }
