@@ -46,7 +46,37 @@
         "video": "./assets/Movies/Kiteretsu/Season_1/Kiteretsu_E3_P1_1080p.mp4"
       }
     ]
+  },
+"show-02": {
+    "id": "show-02",
+    "title": "Shinchan Season - 1",
+    "type": "shows",
+    "channel": "toon_mining",
+    "playlist_link": "https://www.youtube.com/playlist?list=PLTU8RIZ87-4K_Shinchan_Season_1_Placeholder",
+    "poster": "./assets/Episodes/Shinchan/Season_1/Shin_01.jpeg",
+    "info": "Follow the hilarious, mischievous, and completely unfiltered daily adventures of 5-year-old Shinnosuke 'Shin-chan' Nohara. Alongside his stressed-out parents Misae and Hiroshi, his baby sister Himawari, his loyal dog Shiro, and his quirky friends from the Kasukabe Defense Group, Shin-chan turns everyday household chores and school activities into chaotic and comedic masterpieces.",
+    "parts": [
+      {
+        "name": "Episode 1",
+        "video": "./assets/Movies/Shinchan/Season_1/Shinchan_E1_P1_1080p.mp4"
+      },
+      {
+        "name": "Episode 2",
+        "video": "./assets/Movies/Shinchan/Season_1/Shinchan_E1_P2_1080p.mp4"
+      },
+      {
+        "name": "Episode 3",
+        "video": "./assets/Movies/Shinchan/Season_1/Shinchan_E2_P1_1080p.mp4"
+      },
+      {
+        "name": "Episode 4",
+        "video": "./assets/Movies/Shinchan/Season_1/Shinchan_E2_P2_1080p.mp4"
+      },
+      {
+        "name": "Episode 5",
+        "video": "./assets/Movies/Shinchan/Season_1/Shinchan_E3_P1_1080p.mp4"
+      }
+    ]
   }
-
   
 }
