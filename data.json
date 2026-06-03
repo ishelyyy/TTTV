@@ -10,7 +10,7 @@
     "parts": [
       { 
         "name": "Very Very Tasty Tasty Movie",
-        "video": "./assets/Movies/Shinchan_M/VVT.mp4"
+        "video": "./assets/Movies/Shinchan - M/VVT.mp4"
       }
     ] 
   },
@@ -56,7 +56,7 @@
         "name": "Episode 1",
         "video": "./assets/Movies/Shinchan -M/Five_Star_Hotel_Mein_Khana.mp4"
       }
-      
+
     ]
   }
   
