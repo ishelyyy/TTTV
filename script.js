@@ -1,4 +1,4 @@
-        let contentDatabaseJSON = {};
+let contentDatabaseJSON = {};
         let filteredDatabaseArray = []; 
         let favoriteIdsArray = []; 
         let activeFilterMode = 'all'; 
@@ -32,10 +32,16 @@
                     return item.channel.toLowerCase().trim() === ALLOWED_CHANNEL;
                 });
 
-                applyActiveDataRenderingPipeline();
+                // Check unified view state destination configuration
+                const lastSavedState = localStorage.getItem('toon_mining_last_view_state');
                 
-                // Restore last globally viewed page/video item configuration if available
-                restorePlaybackCacheState();
+                if (lastSavedState && lastSavedState !== 'home' && contentDatabaseJSON[lastSavedState]) {
+                    restorePlaybackCacheState(lastSavedState);
+                } else {
+                    // Force clean initialization route straight to Home Grid layout display
+                    showHomeView();
+                    applyActiveDataRenderingPipeline();
+                }
 
             } catch (error) {
                 console.error("Critical database load tracking mismatch error:", error);
@@ -72,19 +78,16 @@
         function setupPlaybackPositionListeners() {
             const videoPlayer = document.getElementById('mainVideoPlayer');
             if (videoPlayer) {
-                // Throttle real-time playback positioning tracking context definitions
                 videoPlayer.addEventListener('timeupdate', () => {
                     if (activeProfileShowId !== null && videoPlayer.currentTime > 0) {
                         const progressData = {
                             partIndex: activePartIndex,
                             timestamp: videoPlayer.currentTime
                         };
-                        // Save structural configuration properties mapped cleanly to explicit item tracking tokens
                         localStorage.setItem(`toon_mining_resume_${activeProfileShowId}`, JSON.stringify(progressData));
                     }
                 });
 
-                // Fail-safe visibility frame/window unload mapping pipeline hook updates
                 window.addEventListener('beforeunload', () => {
                     if (activeProfileShowId !== null && videoPlayer.currentTime > 0) {
                         const progressData = {
@@ -97,12 +100,9 @@
             }
         }
 
-        function restorePlaybackCacheState() {
-            const cachedShowId = localStorage.getItem('toon_mining_cache_show_id');
+        function restorePlaybackCacheState(cachedShowId) {
             if (cachedShowId && contentDatabaseJSON[cachedShowId]) {
                 initialRestoreAttempted = true;
-                
-                // Fetch context payload mapping properties tied explicitly to this media node asset structure tracking token references
                 const savedProgress = localStorage.getItem(`toon_mining_resume_${cachedShowId}`);
                 let targetPart = 0;
                 let targetTime = 0;
@@ -166,7 +166,6 @@
                 const card = document.createElement('div');
                 card.className = 'video-showcase-card';
                 card.onclick = () => {
-                    // Pull item specific historical context payloads prior to initialization workflows execution frames trigger metrics
                     const savedProgress = localStorage.getItem(`toon_mining_resume_${item.id}`);
                     let targetPart = 0;
                     let targetTime = 0;
@@ -195,6 +194,9 @@
 
         function showHomeView() {
             activeProfileShowId = null;
+            // Capture home view context state securely inside persistence layer tracking blocks
+            localStorage.setItem('toon_mining_last_view_state', 'home'); 
+            
             document.getElementById('profileView').classList.remove('active-view');
             document.getElementById('viewFilterRow').style.display = 'flex';
             document.getElementById('homeView').classList.add('active-view');
@@ -211,8 +213,8 @@
             const item = contentDatabaseJSON[contentId];
             if (!item) return;
 
-            // Cache global layout tracking references targeting current page view operations profiles maps
-            localStorage.setItem('toon_mining_cache_show_id', contentId);
+            // Explicitly overwrite navigation memory pointers straight to current profile selection item
+            localStorage.setItem('toon_mining_last_view_state', contentId);
 
             document.getElementById('homeView').classList.remove('active-view');
             document.getElementById('viewFilterRow').style.display = 'none';
@@ -273,7 +275,7 @@
                         if(index !== activePartIndex) {
                             activePartIndex = index;
                             renderPartsTrackSelector();
-                            updateVideoPlayerSource(0); // Fresh item choices clean progress to zero indexes marks 
+                            updateVideoPlayerSource(0); 
                         }
                     };
                     node.innerHTML = `
@@ -296,14 +298,12 @@
             const activeTargetSegment = currentSegmentsFlattenedList[activePartIndex];
             titleElement.innerText = activeTargetSegment.name;
 
-            // Prevent video loop ingestion tracking conflicts patterns errors mismatch frames
             if (videoPlayer.src !== activeTargetSegment.video) {
                 videoPlayer.src = activeTargetSegment.video;
                 videoPlayer.load();
             }
 
             if (timestamp > 0) {
-                // Wait for media assets metadata layers initialization frames pipelines triggers context maps execution loops
                 videoPlayer.onloadedmetadata = () => {
                     videoPlayer.currentTime = timestamp;
                     videoPlayer.onloadedmetadata = null;
