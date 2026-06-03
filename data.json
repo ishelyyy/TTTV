@@ -1,7 +1,7 @@
 {
   "movie-01": {
     "id": "movie-01",
-    "title": "Shinchan Movie | Very Very Tasty Tasty | (2013) | Hindi",
+    "title": "Shinchan Movie | Very Very Tasty Tasty | (2013)",
     "type": "movies",
     "channel": "toon_mining",
     "playlist_link": "https://www.youtube.com/playlist?list=PLTU8RIZ87-4InNhcLc21py1UXzhYGOA4z",
@@ -18,7 +18,7 @@
 
   "show-01": {
     "id": "show-01",
-    "title": "Kiteresu Season",
+    "title": "Kiteresu Shows",
     "type": "shows",
     "channel": "toon_mining",
     "playlist_link": "https://www.youtube.com/playlist?list=PLTU8RIZ87-4LTMkSCNL2QSRX2drkuTnL-",
@@ -45,7 +45,7 @@
   },
 "show-02": {
     "id": "show-02",
-    "title": "Shinchan",
+    "title": "Shinchan Shows",
     "type": "shows",
     "channel": "toon_mining",
     "playlist_link": "https://www.youtube.com/playlist?list=PLTU8RIZ87-4LDMkBOCEhIqNGLGahat3gC",
@@ -61,7 +61,7 @@
   },
   "show-03": {
     "id": "show-03",
-    "title": "Doraemon",
+    "title": "Doraemon Shows",
     "type": "shows",
     "channel": "toon_mining",
     "playlist_link": "https://www.youtube.com/playlist?list=PLTU8RIZ87-4LDMkBOCEhIqNGLGahat3gC",
