@@ -39,7 +39,7 @@
       },
       { 
         "name": "Episode 4",
-        "video": "./assets/Movies/Kiteretsu -Ep/Kiteretsu_2_1.mp4"
+        "video": "./assets/Movies/Kiteretsu - Ep/Kiteretsu_2_1.mp4"
       }
     ]
   },
@@ -48,13 +48,29 @@
     "title": "Shinchan",
     "type": "shows",
     "channel": "toon_mining",
-    "playlist_link": "https://www.youtube.com/playlist?list=PLTU8RIZ87-4K_Shinchan_Season_1_Placeholder",
+    "playlist_link": "https://www.youtube.com/playlist?list=PLTU8RIZ87-4LDMkBOCEhIqNGLGahat3gC",
     "poster": "./assets/Images/Shinchan/SC.jpeg",
     "info": "Follow the hilarious, mischievous, and completely unfiltered daily adventures of 5-year-old Shinnosuke 'Shin-chan' Nohara. Alongside his stressed-out parents Misae and Hiroshi, his baby sister Himawari, his loyal dog Shiro, and his quirky friends from the Kasukabe Defense Group, Shin-chan turns everyday household chores and school activities into chaotic and comedic masterpieces.",
     "parts": [
       {
         "name": "Episode 1",
-        "video": "./assets/Movies/Shinchan -M/Five_Star_Hotel_Mein_Khana.mp4"
+        "video": "./assets/Movies/Shinchan - EP/Five_Star_Hotel_Mein_Khana.mp4"
+      }
+
+    ]
+  },
+  "show-03": {
+    "id": "show-03",
+    "title": "Doraemon",
+    "type": "shows",
+    "channel": "toon_mining",
+    "playlist_link": "https://www.youtube.com/playlist?list=PLTU8RIZ87-4LDMkBOCEhIqNGLGahat3gC",
+    "poster": "./assets/Images/Doraemon/DD.jpeg",
+    "info": "Follow the hilarious, mischievous, and completely unfiltered daily adventures of 5-year-old Shinnosuke 'Shin-chan' Nohara. Alongside his stressed-out parents Misae and Hiroshi, his baby sister Himawari, his loyal dog Shiro, and his quirky friends from the Kasukabe Defense Group, Shin-chan turns everyday household chores and school activities into chaotic and comedic masterpieces.",
+    "parts": [
+      {
+        "name": "Episode 1",
+        "video": "./assets/Movies/Doraemon/Doraemon_1.mp4"
       }
 
     ]
