@@ -5,12 +5,12 @@
     "type": "movies",
     "channel": "toon_mining",
     "playlist_link": "https://www.youtube.com/playlist?list=PLTU8RIZ87-4InNhcLc21py1UXzhYGOA4z",
-    "poster": "./assets/Episodes/Shinchan/VVT/VVT.jpeg",
+    "poster": "./assets/Images/Shinchan/VVT.jpeg",
     "info": "The film revolves around the journey of Shin-chan and his mates from the Kasukabe Defense Group as they go on a survival quest to deliver a “Legendary Sauce” at a food festival before an elitist bad guy wipes out all the street food. It is a funny and endearing tale about friendship, cravings, and the eternal clash between A-Class dining (the expensive) and B-Class food (the yummy and cheap).",
     "parts": [
       { 
-        "name": "Full Movie",
-        "video": "./assets/Movies/Shinchan/Very_Very_Tasty/Very_Very_Tasty_(2013)_Hindi_Part_1080p.mp4"
+        "name": "Very Very Tasty Tasty Movie",
+        "video": "./assets/Movies/Shinchan_M/VVT.mp4"
       }
     ] 
   },
@@ -18,64 +18,45 @@
 
   "show-01": {
     "id": "show-01",
-    "title": "Kiteresu Season - 1",
+    "title": "Kiteresu Season",
     "type": "shows",
     "channel": "toon_mining",
     "playlist_link": "https://www.youtube.com/playlist?list=PLTU8RIZ87-4LTMkSCNL2QSRX2drkuTnL-",
-    "poster": "./assets/Episodes/Kiteretsu/Kit_01.jpeg",
+    "poster": "./assets/Images/Kiteretsu/KK.jpeg",
     "info": "Kiteretsu seems like a really smart kid who likes to invent stuff. He finds this big collection of plans that his ancestor left behind. The ancestor was called Great Kiteretsu and he was supposed to be brilliant at this kind of thing. The season kind of follows what he does with all of that. It is not totally clear at the start how everything connects.",
     "parts": [
       { 
         "name": "Episode 1",
-        "video": "./assets/Movies/Kiteretsu/Season_1/Kiteretsu_E1_P1_1080p.mp4"
+        "video": "./assets/Movies/Kiteretsu - Ep/Kiteretsu_1.mp4"
       },
       { 
         "name": "Episode 2",
-        "video": "./assets/Movies/Kiteretsu/Season_1/Kiteretsu_E1_P2_1080p.mp4"
+        "video": "./assets/Movies/Kiteretsu - Ep/Kiteretsu_1_1.mp4"
       },
       { 
         "name": "Episode 3",
-        "video": "./assets/Movies/Kiteretsu/Season_1/Kiteretsu_E2_P1_1080p.mp4"
+        "video": "./assets/Movies/Kiteretsu - Ep/Kiteretsu_2.mp4"
       },
       { 
         "name": "Episode 4",
-        "video": "./assets/Movies/Kiteretsu/Season_1/Kiteretsu_E2_P2_1080p.mp4"
-      },
-      { 
-        "name": "Episode 5",
-        "video": "./assets/Movies/Kiteretsu/Season_1/Kiteretsu_E3_P1_1080p.mp4"
+        "video": "./assets/Movies/Kiteretsu -Ep/Kiteretsu_2_1.mp4"
       }
     ]
   },
 "show-02": {
     "id": "show-02",
-    "title": "Shinchan Season - 1",
+    "title": "Shinchan",
     "type": "shows",
     "channel": "toon_mining",
     "playlist_link": "https://www.youtube.com/playlist?list=PLTU8RIZ87-4K_Shinchan_Season_1_Placeholder",
-    "poster": "./assets/Episodes/Shinchan/Season_1/Shin_01.jpeg",
+    "poster": "./assets/Images/Shinchan/SC.jpeg",
     "info": "Follow the hilarious, mischievous, and completely unfiltered daily adventures of 5-year-old Shinnosuke 'Shin-chan' Nohara. Alongside his stressed-out parents Misae and Hiroshi, his baby sister Himawari, his loyal dog Shiro, and his quirky friends from the Kasukabe Defense Group, Shin-chan turns everyday household chores and school activities into chaotic and comedic masterpieces.",
     "parts": [
       {
         "name": "Episode 1",
-        "video": "./assets/Movies/Shinchan/Season_1/Shinchan_E1_P1_1080p.mp4"
-      },
-      {
-        "name": "Episode 2",
-        "video": "./assets/Movies/Shinchan/Season_1/Shinchan_E1_P2_1080p.mp4"
-      },
-      {
-        "name": "Episode 3",
-        "video": "./assets/Movies/Shinchan/Season_1/Shinchan_E2_P1_1080p.mp4"
-      },
-      {
-        "name": "Episode 4",
-        "video": "./assets/Movies/Shinchan/Season_1/Shinchan_E2_P2_1080p.mp4"
-      },
-      {
-        "name": "Episode 5",
-        "video": "./assets/Movies/Shinchan/Season_1/Shinchan_E3_P1_1080p.mp4"
+        "video": "./assets/Movies/Shinchan -M/Five_Star_Hotel_Mein_Khana.mp4"
       }
+      
     ]
   }
   
